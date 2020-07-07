@@ -30,7 +30,7 @@ services:
         ipv4_address: "10.10.0.2"
 
   php:
-    image:          samirmh/laravel-docker:latest
+    image:          fpm
     hostname:       haf_php
     container_name: haf_php
     restart:        unless-stopped
