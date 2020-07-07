@@ -19,7 +19,7 @@ phpfpm:
 mysql:
   image: mysql
   environment:
-    MYSQL_ROOT_PASSWORD: admin
+    MYSQL_ROOT_PASSWORD: admsain
   ports:
     - "3306:3306"
 phpmyadmin:
