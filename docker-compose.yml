@@ -17,7 +17,7 @@ phpfpm:
     volumes:
         - ./public:/usr/share/nginx/html
 mysql:
-  image: mysql
+  image: mariadb
   environment:
     MYSQL_ROOT_PASSWORD: admin
   ports:
